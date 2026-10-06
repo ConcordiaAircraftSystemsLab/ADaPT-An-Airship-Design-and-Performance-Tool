@@ -1,0 +1,16 @@
+name: adapt
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - plotly
+  - pyarrow
+  - pip:
+      - openmdao>=3.20
+      - streamlit>=1.30
+      - pytest
+      - flake8

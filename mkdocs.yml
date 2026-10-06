@@ -1,0 +1,16 @@
+site_name: Airship MDAO Documentation
+theme:
+  name: material
+
+markdown_extensions:
+  - tables
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - Home: index.md
+  - Geometry: geometry.md
+  - Performance: performance.md

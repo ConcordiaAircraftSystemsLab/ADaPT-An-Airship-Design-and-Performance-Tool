@@ -1,0 +1,7 @@
+engines:
+  flake8:
+    enabled: true
+exclude_paths:
+  - "documents/**"
+  - "installation/**"
+  - "tests/**"

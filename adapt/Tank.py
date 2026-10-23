@@ -36,9 +36,6 @@ Installed hydrogen includes reserve:
 
     m_H2,installed = m_H2,used * (1 + reserve_fraction)
 
-The legacy ``fuel_onboard_mass`` input is retained only for optional backward
-compatibility. It is ignored by default to avoid discontinuous jumps during
-the nonlinear coupled solve.
 
 Storage gravimetric efficiency
 ------------------------------

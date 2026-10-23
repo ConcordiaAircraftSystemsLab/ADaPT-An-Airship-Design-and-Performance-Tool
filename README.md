@@ -49,7 +49,7 @@ airship sizing, including:
 -   Ballonet sizing and takeoff gas state
 -   Buoyancy and lifting-gas calculations
 -   Structural and subsystem mass estimation
--   Operating empty weight (OEM) and maximum takeoff weight (MTOM)
+-   Operating empty mass (OEM) and maximum takeoff mass (MTOM)
 -   Mission consumable and energy requirements
 -   Installed-power and mission-feasibility assessment
 
@@ -91,7 +91,7 @@ maintaining consistent information exchange between:
 -   Geometry
 -   Atmosphere
 -   Aerodynamics and performance
--   Weight estimation
+-   Mass estimation
 -   Propulsion
 -   Power systems
 -   Energy storage
@@ -207,7 +207,7 @@ assumptions.
 
 ADaPT provides several aircraft- and architecture-level metrics.
 
-### Maximum Takeoff Weight (MTOM)
+### Maximum Takeoff Mass (MTOM)
 
 Total takeoff mass of the modeled vehicle, including the installed
 propulsion, energy-storage, structural, payload, and mission-consumable
@@ -318,7 +318,7 @@ Mission / Design Requirements
             │
     ┌───────┼────────┐
     ▼       ▼        ▼
- Geometry  Weight  Atmosphere
+ Geometry  Mass  Atmosphere
     │        ▲        │
     ▼        │        ▼
 Performance ─┼──► Propulsion
@@ -419,7 +419,7 @@ The **Getting Started** documentation provides introductory material for new use
 
 The **Theory Guide** documents the mathematical and physical models implemented within ADaPT. It provides the theoretical basis, assumptions, inputs, outputs, multidisciplinary dependencies, and source traceability for the principal analysis modules.
 
-Topics include airship geometry, atmosphere, buoyancy and weight estimation, aerodynamic performance, propulsion, power and energy systems, energy storage, hydrogen systems, mission analysis, and optimization-related formulations.
+Topics include airship geometry, atmosphere, buoyancy and mass estimation, aerodynamic performance, propulsion, power and energy systems, energy storage, hydrogen systems, mission analysis, and optimization-related formulations.
 
 The Theory Guide is particularly useful for researchers who need to understand the physical assumptions and equations behind an ADaPT analysis rather than treating the framework as a black-box design tool.
 
@@ -602,7 +602,7 @@ Areas of particular interest include:
 -   Additional airship configurations
 -   New propulsion architectures
 -   Higher-fidelity aerodynamic models
--   Improved structural weight estimation
+-   Improved structural mass estimation
 -   Hydrogen-storage models
 -   Battery and fuel-cell models
 -   Solar-energy models

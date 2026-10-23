@@ -17,15 +17,20 @@ a consistent basis while explicitly accounting for the strong
 design.
 
 
+
 <p align="center">
-  <img src="docs/images/Graphical Abstract.png" alt="ADaPT Logo" width="220">
+  <img src="docs/images/Graphical Abstract.png" alt="ADaPT — Airship Design and Performance Tool" width="100%">
 </p>
 
 <h1 align="center">ADaPT — Airship Design and Performance Tool</h1>
 
 <p align="center">
-  An open-source, physics-based multidisciplinary framework for airship design, sizing, mission analysis, and optimization.
+  An open-source, physics-based multidisciplinary framework for
+  airship design, sizing, mission analysis, and optimization.
 </p>
+
+<hr>
+
 
 ------------------------------------------------------------------------
 

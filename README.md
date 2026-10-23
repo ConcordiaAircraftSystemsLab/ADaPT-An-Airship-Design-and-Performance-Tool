@@ -1,9 +1,20 @@
-# ADaPT --- Airship Design and Performance Tool
 
-**ADaPT (Airship Design and Performance Tool)** is an open-source,
+<p align="center">
+  <img src="docs/images/Graphical Abstract.svg"
+       alt="ADaPT — Airship Design and Performance Tool"
+       width="1000">
+</p>
+
+<h1 align="center">ADaPT — Airship Design and Performance Tool</h1>
+
+<p align="center">
+  An open-source,
 physics-based multidisciplinary framework for the **conceptual design,
 sizing, mission analysis, technology assessment, and optimization of
 airships**.
+</p>
+
+<hr>
 
 Built on [OpenMDAO](https://github.com/OpenMDAO/OpenMDAO), ADaPT couples
 airship geometry, aerodynamics, buoyancy, mass estimation, propulsion,
@@ -18,20 +29,6 @@ design.
 
 
 
-<p align="center">
-  <img src="docs/images/Graphical Abstract.svg"
-       alt="ADaPT — Airship Design and Performance Tool"
-       width="1000">
-</p>
-
-<h1 align="center">ADaPT — Airship Design and Performance Tool</h1>
-
-<p align="center">
-  An open-source, physics-based multidisciplinary framework for
-  airship design, sizing, mission analysis, and optimization.
-</p>
-
-<hr>
 
 
 ------------------------------------------------------------------------

@@ -17,25 +17,7 @@ the turbine core, generator, motor, and propeller form a single fuel-to-
 thrust chain with no independently-sized battery/tank. Wire this INSTEAD
 OF Propulsion + Power when power_source == "turboelectric".
 
-Adapted from a general-aircraft gpkit reference (turboelectric.py,
-gas_generator.py, elec_generator.py, motor.py, ducted_fan.py). Simplified
-for this tool:
-    - gpkit signomial constraints removed; direct algebraic sizing instead
-      (mass = rated_power / specific_power), matching the specific-power
-      convention already used throughout Propulsion.py / Power.py, instead
-      of the reference's specific-torque motor/generator sizing.
-    - Ducted-fan duct geometry and boundary-layer-ingestion (BLI) removed;
-      this tool uses the same conceptual open-propeller sizing as
-      Propulsion.py (diameter from a propeller power coefficient, mass
-      from a mass-per-watt coefficient).
-    - Fuselage/wing fan split removed; airships here use a simple
-      n_propulsor group of identical motor-driven propellers, decoupled
-      from the n_engine count of turbine-generator cores (matching the
-      reference's N_eng cores / N_p propulsors distinction, e.g. 2 cores
-      feeding 4 distributed propulsors).
-    - Added a distributed-power wiring-mass allowance (absent from the
-      reference, needed here because turbine cores and propulsors may be
-      physically far apart along an airship envelope/gondola).
+Adapted from a general-aircraft gpkit reference (Cheetah Project)
 
 Power flow / fuel-burn chain
 -----------------------------

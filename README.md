@@ -21,7 +21,7 @@ design.
 <p align="center">
   <img src="docs/images/Graphical Abstract.svg"
        alt="ADaPT — Airship Design and Performance Tool"
-       width="100">
+       width="800">
 </p>
 
 <h1 align="center">ADaPT — Airship Design and Performance Tool</h1>

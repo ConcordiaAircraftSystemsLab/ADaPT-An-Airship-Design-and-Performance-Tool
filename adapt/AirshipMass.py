@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Airship Weight Component for ADaPT
+Airship Mass Component for ADaPT
 ==================================
 
 Purpose
@@ -59,7 +59,7 @@ Miscellaneous:
     A fraction of OEW. 3.5% is used as the default conventional-airship
     conceptual value; this remains configuration dependent.
 
-Weight margin:
+Mass margin:
     Optional. The book discusses typical 5-10% design margins and uses
     5-6% in examples. The ADaPT default is 6%, but application of the margin
     is disabled by default so reference-aircraft validation does not

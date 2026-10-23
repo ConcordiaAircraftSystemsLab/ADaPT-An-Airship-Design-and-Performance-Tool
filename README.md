@@ -16,6 +16,17 @@ a consistent basis while explicitly accounting for the strong
 **mass--energy--propulsion--geometry coupling** that governs airship
 design.
 
+
+<p align="center">
+  <img src="docs/images/Graphical Abstract.png" alt="ADaPT Logo" width="220">
+</p>
+
+<h1 align="center">ADaPT — Airship Design and Performance Tool</h1>
+
+<p align="center">
+  An open-source, physics-based multidisciplinary framework for airship design, sizing, mission analysis, and optimization.
+</p>
+
 ------------------------------------------------------------------------
 
 ## Key Capabilities

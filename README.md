@@ -31,7 +31,7 @@ airship sizing, including:
 -   Ballonet sizing and takeoff gas state
 -   Buoyancy and lifting-gas calculations
 -   Structural and subsystem mass estimation
--   Operating empty weight (OEW) and maximum takeoff weight (MTOW)
+-   Operating empty weight (OEM) and maximum takeoff weight (MTOM)
 -   Mission consumable and energy requirements
 -   Installed-power and mission-feasibility assessment
 
@@ -189,13 +189,13 @@ assumptions.
 
 ADaPT provides several aircraft- and architecture-level metrics.
 
-### Maximum Takeoff Weight (MTOW)
+### Maximum Takeoff Weight (MTOM)
 
 Total takeoff mass of the modeled vehicle, including the installed
 propulsion, energy-storage, structural, payload, and mission-consumable
 contributions represented by the selected architecture.
 
-### Architecture-Normalized MTOW (MTOW\*)
+### Architecture-Normalized MTOM (MTOM\*)
 
 A comparison metric used in architecture studies to reduce distortions
 caused by differences between installed energy capacity and
@@ -214,7 +214,7 @@ where:
 -   (m\_{`\mathrm{payload}`{=tex}}) is transported payload mass, and
 -   \(d\) is mission distance.
 
-These metrics enable architecture comparisons beyond MTOW alone.
+These metrics enable architecture comparisons beyond MTOM alone.
 
 ------------------------------------------------------------------------
 
@@ -256,8 +256,8 @@ Reference configurations can be used to assess:
 -   Volume
 -   Buoyancy
 -   Structural and subsystem masses
--   OEW
--   MTOW
+-   OEM
+-   MTOM
 -   Propulsion requirements
 -   Mission feasibility
 
@@ -275,7 +275,7 @@ treating them as design predictions.
 ADaPT provides visualization tools for both aircraft-design and
 operational studies, including:
 
--   MTOW\*--PFEI architecture trade spaces
+-   MTOM\*--PFEI architecture trade spaces
 -   Pareto fronts
 -   Feasibility maps
 -   Payload--range envelopes
@@ -537,7 +537,7 @@ Validation scripts can be used to compare ADaPT predictions with published or do
 
 ADaPT can be used to investigate questions such as:
 
--   How does propulsion architecture affect airship MTOW and energy
+-   How does propulsion architecture affect airship MTOM and energy
     efficiency?
 -   When does battery-electric propulsion become mass-feasible?
 -   What hydrogen-storage performance is required for a given mission?

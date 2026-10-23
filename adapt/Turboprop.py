@@ -16,17 +16,7 @@ electrical bus, so its mechanical (propeller/gearbox/core) sizing and its
 fuel-burn sizing are combined here in one component. Wire this INSTEAD OF
 Propulsion + Power when power_source == "turboprop".
 
-Adapted from a general-aircraft gpkit reference (ducted_fan.py,
-gas_generator.py, turbofan.py). Simplified for this tool:
-    - gpkit signomial constraints removed; direct algebraic sizing instead
-      (mass = rated_power / specific_power), matching the specific-power
-      convention already used throughout Propulsion.py / Power.py.
-    - Ducted-fan duct geometry (fan hub-to-tip ratio, corrected mass flow,
-      inlet kinetic-energy defect / BLI) removed; this tool uses the same
-      conceptual open-propeller sizing as Propulsion.py (diameter from a
-      propeller power coefficient, mass from a mass-per-watt coefficient).
-    - Boundary-layer-ingestion / wing-fuselage fan split removed; airships
-      here use a simple n_engine group of identical propulsors.
+Adapted from a general-aircraft gpkit reference (CHEETAH projet)
 
 Mission-versus-rating convention (matches Propulsion.py)
 ----------------------------------------------------------

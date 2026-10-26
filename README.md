@@ -78,7 +78,7 @@ Mission Energy
    ↓
 Energy / Fuel / H₂ Storage Mass
    ↓
-Aircraft Mass
+Airship Mass
    ↓
 Buoyancy and Geometry
    ↺
@@ -106,7 +106,7 @@ feasibility requirements.
 ## Propulsion and Energy Architectures
 
 ADaPT supports multiple propulsion and energy-system architectures
-within the same aircraft-level framework, including:
+within the same airship-level framework, including:
 
 -   Conventional reciprocating-engine propulsion
 -   Turboprop propulsion
@@ -161,7 +161,7 @@ configuration.
 Determine coupled vehicle mass, propulsion, energy, and mission
 requirements for a specified design and mission.
 
-### Reference-Aircraft Validation
+### Reference-Airship Validation
 
 Reproduce published or documented airship configurations to assess
 individual models and integrated framework behavior.
@@ -204,7 +204,7 @@ assumptions.
 
 ## Performance and Architecture Metrics
 
-ADaPT provides several aircraft- and architecture-level metrics.
+ADaPT provides several airships- and architecture-level metrics.
 
 ### Maximum Takeoff Mass (MTOM)
 
@@ -289,7 +289,7 @@ treating them as design predictions.
 
 ## Visualization
 
-ADaPT provides visualization tools for both aircraft-design and
+ADaPT provides visualization tools for both airship-design and
 operational studies, including:
 
 -   MTOM\*--PFEI architecture trade spaces
@@ -476,7 +476,7 @@ This makes the Python workflow particularly suitable for **research studies, mod
 
 ### Basic Multidisciplinary Analysis
 
-The main MDA driver performs a coupled aircraft analysis using the current ADaPT framework.
+The main MDA driver performs a coupled airship analysis using the current ADaPT framework.
 
 Open `run_MDA.py` in your Python IDE, modify the configuration as required, and run the file.
 
@@ -535,7 +535,7 @@ Accordingly, the GUI is intended as a convenient interface to ADaPT for simple a
 
 ### Validation
 
-Reference-aircraft validation cases are provided separately from clean-sheet design studies.
+Reference-airship validation cases are provided separately from clean-sheet design studies.
 
 For example:
 
@@ -543,7 +543,7 @@ For example:
 python validation_a170.py
 ```
 
-Validation scripts can be used to compare ADaPT predictions with published or documented reference-aircraft data and to evaluate individual subsystem models and integrated framework behavior.
+Validation scripts can be used to compare ADaPT predictions with published or documented reference-airship data and to evaluate individual subsystem models and integrated framework behavior.
 
 ------------------------------------------------------------------------
 
@@ -571,7 +571,7 @@ ADaPT can be used to investigate questions such as:
 ADaPT is a **conceptual and preliminary design framework**. It is
 intended primarily for architecture exploration, multidisciplinary
 sizing, technology assessment, and comparative studies rather than
-detailed certification-level aircraft design.
+detailed certification-level airship design.
 
 Current limitations include:
 
@@ -606,7 +606,7 @@ Areas of particular interest include:
 -   Weather and routing models
 -   Operational and lifecycle analysis
 -   Cost models
--   Additional reference-aircraft validation cases
+-   Additional reference-airship validation cases
 -   Optimization and surrogate-modeling methods
 
 ------------------------------------------------------------------------
@@ -624,7 +624,7 @@ ADaPT builds upon:
 -   OpenMDAO
 -   pymoo
 -   Established airship design methodologies
--   Aircraft propulsion and energy-system literature
+-   Airship/Aircraft propulsion and energy-system literature
 -   Published airship reference configurations
 
 The framework is developed as a research tool for multidisciplinary

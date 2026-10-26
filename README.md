@@ -497,13 +497,10 @@ python run_MDA.py
 Additional scripts in the repository provide specialized analyses including:
 
 - Architecture comparison
-- Payload–range analysis
 - Technology sensitivity studies
 - Technology feasibility thresholds
 - Energy and propulsion trade studies
-- Design-space exploration
-- Surrogate and response-surface analysis
-- Reference-aircraft validation
+
 
 These scripts can be modified directly to define study-specific variables, bounds, assumptions, and output quantities.
 
@@ -532,7 +529,7 @@ The GUI is particularly useful for:
 
 The **Python workflow currently provides greater flexibility** than the GUI because users can directly access and modify the complete model configuration, introduce additional design variables, change parameter bounds, define custom DOE studies, modify optimization formulations, and develop new research cases.
 
-Accordingly, the GUI is intended as a convenient interface to ADaPT, while direct Python execution remains the preferred workflow for advanced research and framework development.
+Accordingly, the GUI is intended as a convenient interface to ADaPT for simple analyses, such as validation, sizing baseline airships etc, while direct Python execution remains the preferred workflow for advanced research and framework development.
 
 ---
 

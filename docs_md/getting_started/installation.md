@@ -63,8 +63,8 @@ airship-design-tool/
 │   ├── operatingConditions.py
 │   ├── Atmosphere.py
 │   ├── AirshipGeometry.py
-│   ├── AirshipWeight.py
-│   ├── AirshipMission.py
+│   ├── AirshipMass.py
+│   ├── AirshipPerformance.py
 │   ├── Propulsion.py
 │   ├── Power.py
 │   ├── Tank.py
@@ -90,13 +90,13 @@ The current repository intentionally keeps the core modules as flat Python modul
 Consequently, analyses can be executed directly, for example:
 
 ```bash
-python studies/design_space_exploration.py --archs hydrogen_fuel_cell
+python studies/mission_analysis_av10.py 
 ```
 
 or a validation case can be executed using:
 
 ```bash
-python validation/validation_1_paper_with_pymoo_A170.py
+python validation/validation_a170.py
 ```
 
 These execution patterns are documented in the current repository README.

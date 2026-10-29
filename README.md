@@ -30,7 +30,7 @@ a consistent basis while explicitly accounting for the strong
 design.
 
 
-
+Detailed Documentation: For comprehensive guidance on installing and using ADaPT, including its theoretical foundations, governing equations, multidisciplinary models, propulsion architectures, and practical workflows, please visit the ADaPT Online Documentation.
 
 
 ------------------------------------------------------------------------

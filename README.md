@@ -29,8 +29,10 @@ a consistent basis while explicitly accounting for the strong
 **mass--energy--propulsion--geometry coupling** that governs airship
 design.
 
+**Detailed Documentation:** For comprehensive guidance on installing and using ADaPT, including its theoretical foundations, governing equations, multidisciplinary models, propulsion architectures, and practical workflows, please visit the **[ADaPT Online Documentation](https://concordiaaircraftsystemslab.github.io/ADaPT-An-Airship-Design-and-Performance-Tool/)**.
 
-Detailed Documentation: For comprehensive guidance on installing and using ADaPT, including its theoretical foundations, governing equations, multidisciplinary models, propulsion architectures, and practical workflows, please visit the ADaPT Online Documentation.
+
+
 
 
 ------------------------------------------------------------------------

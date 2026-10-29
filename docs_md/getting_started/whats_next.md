@@ -21,7 +21,7 @@ Theory Guide
 ├── Geometry
 ├── Aerostatics and Buoyancy
 ├── Aerodynamics
-├── Weight and Mass Estimation
+├── Mass Estimation
 ├── Propulsion
 ├── Power and Energy Systems
 │   ├── Conventional

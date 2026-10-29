@@ -135,9 +135,8 @@ This prevents double counting when aerostatic lift is handled through the net ai
 
 ## 3. Vehicle Mass Definitions
 
-### 3.1 Operating Empty Mass
 
-The current implementation closes OEM from
+**Equation (EQ-3): Operating Empty Mass**
 
 $$
 \boxed{
@@ -161,8 +160,8 @@ m_{\mathrm{env}}
 +m_{\mathrm{margin}} .
 \end{aligned}
 }
-\tag{EQ-3}
 $$
+
 
 Terms not active for a selected architecture/configuration are zero.
 

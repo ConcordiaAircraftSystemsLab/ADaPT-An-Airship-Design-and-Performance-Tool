@@ -1,5 +1,5 @@
-# pfei_pareto_cluster_study.py
-# Zeppelin NT single-class PFEI-MTOW*-Range Pareto and common-mission audit
+
+# Zeppelin NT single-class PFEI-MTOW*-Range Pareto and common-mission analysis
 #
 # Uses the validated Zeppelin NT mission, semi-rigid geometry/weight model, and technology settings.
 

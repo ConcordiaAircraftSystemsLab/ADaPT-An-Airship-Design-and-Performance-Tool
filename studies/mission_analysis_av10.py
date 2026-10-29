@@ -1,5 +1,5 @@
-# pfei_pareto_cluster_study.py
-# AV-10 equivalent single-class PFEI-MTOW*-Range Pareto and common-mission audit
+
+# AV-10 equivalent single-class PFEI-MTOW*-Range Pareto and common-mission analysis
 #
 # Uses the validated AV-10 equivalent mission, geometry, weight and technology settings.
 

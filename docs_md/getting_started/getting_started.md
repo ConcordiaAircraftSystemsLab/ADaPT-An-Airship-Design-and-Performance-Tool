@@ -17,7 +17,7 @@ The computational model is organized around the following major analysis areas.
 | Operating conditions | Atmospheric, gas, and fuel properties |
 | Atmosphere | Pressure, temperature, and density |
 | Geometry | Hull, wetted area, fins, ballonets, structural geometry |
-| Aerostatics / Weight | Buoyancy, helium requirements, structural and subsystem masses, OWE and MTOW |
+| Aerostatics / Mass | Buoyancy, helium requirements, structural and subsystem masses, OEM and MTOM |
 | Mission | Design-point mission performance |
 | Propulsion | Shaft power, propeller sizing, prime mover and installation mass |
 | Power | Propulsion-energy architecture sizing |
